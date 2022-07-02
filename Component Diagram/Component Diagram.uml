@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_DYeHMNZ7EeyNwpjdfQ044Q" name="Component Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_DfU9INZ7EeyNwpjdfQ044Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_g5vMsNZ7EeyNwpjdfQ044Q" name="Student">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_gk5IoNZ8EeyNwpjdfQ044Q" client="_g5vMsNZ7EeyNwpjdfQ044Q" supplier="_a7kIoNZ8EeyNwpjdfQ044Q" contract="_a7kIoNZ8EeyNwpjdfQ044Q"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Tuir0NZ9EeyNwpjdfQ044Q" client="_g5vMsNZ7EeyNwpjdfQ044Q" supplier="_L6bPQNZ9EeyNwpjdfQ044Q" contract="_L6bPQNZ9EeyNwpjdfQ044Q"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_451dwNZ9EeyNwpjdfQ044Q" client="_g5vMsNZ7EeyNwpjdfQ044Q" supplier="_2__AMNZ9EeyNwpjdfQ044Q" contract="_2__AMNZ9EeyNwpjdfQ044Q"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_5FllUNZ-EeyNwpjdfQ044Q" client="_g5vMsNZ7EeyNwpjdfQ044Q" supplier="_sJEEgNZ-EeyNwpjdfQ044Q" contract="_sJEEgNZ-EeyNwpjdfQ044Q"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ukUwkNZ_EeyNwpjdfQ044Q" client="_g5vMsNZ7EeyNwpjdfQ044Q" supplier="_rwvOoNZ_EeyNwpjdfQ044Q" contract="_rwvOoNZ_EeyNwpjdfQ044Q"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_fRkYMNZ_EeyNwpjdfQ044Q" client="_g5vMsNZ7EeyNwpjdfQ044Q" supplier="_dX8kINZ_EeyNwpjdfQ044Q"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_C0b_8OJWEey7tqUSDpe81w" client="_g5vMsNZ7EeyNwpjdfQ044Q" supplier="_xQfoEOJVEey7tqUSDpe81w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_qMg_oNZ7EeyNwpjdfQ044Q" name="Course">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_ZKndgNZ-EeyNwpjdfQ044Q" client="_qMg_oNZ7EeyNwpjdfQ044Q" supplier="_SZ5-sNZ-EeyNwpjdfQ044Q"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_hFTbENdNEeymuqUZdNisyQ" client="_qMg_oNZ7EeyNwpjdfQ044Q" supplier="_f-aEcNdNEeymuqUZdNisyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_09FmQNZ7EeyNwpjdfQ044Q" name="Administrator">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_cpPfcNdNEeymuqUZdNisyQ" client="_09FmQNZ7EeyNwpjdfQ044Q" supplier="_XHPPcNdNEeymuqUZdNisyQ" contract="_XHPPcNdNEeymuqUZdNisyQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_16ZmQNZ_EeyNwpjdfQ044Q" client="_09FmQNZ7EeyNwpjdfQ044Q" supplier="_tmJ4INZ_EeyNwpjdfQ044Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_3iF5oNZ7EeyNwpjdfQ044Q" name="Profile">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_GKJn0NZ_EeyNwpjdfQ044Q" client="_3iF5oNZ7EeyNwpjdfQ044Q" supplier="_BcdJoNZ_EeyNwpjdfQ044Q"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_3bKp0NdNEeymuqUZdNisyQ" client="_3iF5oNZ7EeyNwpjdfQ044Q" supplier="_2QrzsNdNEeymuqUZdNisyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_CvyhINZ8EeyNwpjdfQ044Q" name="Teacher">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_bywH8NZ_EeyNwpjdfQ044Q" client="_CvyhINZ8EeyNwpjdfQ044Q" supplier="_Zb8ooNZ_EeyNwpjdfQ044Q" contract="_Zb8ooNZ_EeyNwpjdfQ044Q"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_0lUeENdNEeymuqUZdNisyQ" client="_CvyhINZ8EeyNwpjdfQ044Q" supplier="_yszdQNdNEeymuqUZdNisyQ" contract="_yszdQNdNEeymuqUZdNisyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_R77UINZ8EeyNwpjdfQ044Q" name="Coursera">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_BFd8sOJWEey7tqUSDpe81w" client="_R77UINZ8EeyNwpjdfQ044Q" supplier="_861vUOJVEey7tqUSDpe81w" contract="_861vUOJVEey7tqUSDpe81w"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_0OlFANZ8EeyNwpjdfQ044Q" client="_R77UINZ8EeyNwpjdfQ044Q" supplier="_qAEpoNZ8EeyNwpjdfQ044Q"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_b8lEQNZ9EeyNwpjdfQ044Q" client="_R77UINZ8EeyNwpjdfQ044Q" supplier="_ZTpTINZ9EeyNwpjdfQ044Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_a7kIoNZ8EeyNwpjdfQ044Q" name="LoginDetails"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_qAEpoNZ8EeyNwpjdfQ044Q" name="getDetails"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_L6bPQNZ9EeyNwpjdfQ044Q" name="Search"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ZTpTINZ9EeyNwpjdfQ044Q"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_2__AMNZ9EeyNwpjdfQ044Q" name="Enroll"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_SZ5-sNZ-EeyNwpjdfQ044Q" name=""/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_sJEEgNZ-EeyNwpjdfQ044Q" name="modify"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_BcdJoNZ_EeyNwpjdfQ044Q" name=""/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Zb8ooNZ_EeyNwpjdfQ044Q" name="SponsorCourse"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_dX8kINZ_EeyNwpjdfQ044Q" name=""/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_rwvOoNZ_EeyNwpjdfQ044Q" name="PaymentDetail"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_tmJ4INZ_EeyNwpjdfQ044Q" name=""/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_XHPPcNdNEeymuqUZdNisyQ" name="addCourse"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_f-aEcNdNEeymuqUZdNisyQ" name=""/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_yszdQNdNEeymuqUZdNisyQ" name="modify"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_2QrzsNdNEeymuqUZdNisyQ" name=""/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_xQfoEOJVEey7tqUSDpe81w" name="DownloadContent"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_861vUOJVEey7tqUSDpe81w" name="ProvideContent"/>
+</uml:Model>

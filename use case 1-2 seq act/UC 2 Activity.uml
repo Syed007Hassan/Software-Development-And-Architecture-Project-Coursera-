@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_JIRJgNQ0EeyYk_RzN_LKuQ" name="USE CASE NO">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_JJTrUNQ0EeyYk_RzN_LKuQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_K26coNQ0EeyYk_RzN_LKuQ" name="Enroll" node="_Ex5CUNQ4EeyYk_RzN_LKuQ _L1HC4NQ3EeyYk_RzN_LKuQ _-fRqMNQ2EeyYk_RzN_LKuQ _10LiUNQ2EeyYk_RzN_LKuQ _igLiENQ2EeyYk_RzN_LKuQ _cGNvUNQ2EeyYk_RzN_LKuQ _XfElENQ2EeyYk_RzN_LKuQ _P9wIsNQ2EeyYk_RzN_LKuQ _x8Z08NQ1EeyYk_RzN_LKuQ _q-zJoNQ1EeyYk_RzN_LKuQ _1GlucNQ0EeyYk_RzN_LKuQ _xSlRUNQ0EeyYk_RzN_LKuQ _CHzSQNRGEeyYk_RzN_LKuQ _bd5s8NRIEeyYk_RzN_LKuQ _j9JxMNRIEeyYk_RzN_LKuQ _wqHzENRIEeyYk_RzN_LKuQ _5SVmENRIEeyYk_RzN_LKuQ" group="_lhYesNQ1EeyYk_RzN_LKuQ">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_x82g4NQ1EeyYk_RzN_LKuQ" inPartition="_lhYesNQ1EeyYk_RzN_LKuQ" target="_x8Z08NQ1EeyYk_RzN_LKuQ" source="_q-zJoNQ1EeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Xfqa8NQ2EeyYk_RzN_LKuQ" target="_XfElENQ2EeyYk_RzN_LKuQ" source="_P9wIsNQ2EeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cHHHMNQ2EeyYk_RzN_LKuQ" target="_cGNvUNQ2EeyYk_RzN_LKuQ" source="_XfElENQ2EeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ig7I8NQ2EeyYk_RzN_LKuQ" target="_igLiENQ2EeyYk_RzN_LKuQ" source="_XfElENQ2EeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_107JMNQ2EeyYk_RzN_LKuQ" target="_10LiUNQ2EeyYk_RzN_LKuQ" source="_XfElENQ2EeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-gLCENQ2EeyYk_RzN_LKuQ" target="_-fRqMNQ2EeyYk_RzN_LKuQ" source="_igLiENQ2EeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_L12pwNQ3EeyYk_RzN_LKuQ" target="_L1HC4NQ3EeyYk_RzN_LKuQ" source="_-fRqMNQ2EeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_TsB70NQ3EeyYk_RzN_LKuQ" target="_-fRqMNQ2EeyYk_RzN_LKuQ" source="_10LiUNQ2EeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-VWcsNQ3EeyYk_RzN_LKuQ" target="_-fRqMNQ2EeyYk_RzN_LKuQ" source="_cGNvUNQ2EeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Eye4MNQ4EeyYk_RzN_LKuQ" target="_Ex5CUNQ4EeyYk_RzN_LKuQ" source="_xSlRUNQ0EeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JPB8ANQ4EeyYk_RzN_LKuQ" target="_1GlucNQ0EeyYk_RzN_LKuQ" source="_Ex5CUNQ4EeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CIhD8NRGEeyYk_RzN_LKuQ" target="_CHzSQNRGEeyYk_RzN_LKuQ" source="_1GlucNQ0EeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_77w74NRHEeyYk_RzN_LKuQ" target="_q-zJoNQ1EeyYk_RzN_LKuQ" source="_CHzSQNRGEeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JFGJoNRIEeyYk_RzN_LKuQ" target="_P9wIsNQ2EeyYk_RzN_LKuQ" source="_CHzSQNRGEeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d6cn4NRIEeyYk_RzN_LKuQ" target="_5SVmENRIEeyYk_RzN_LKuQ" source="_L1HC4NQ3EeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wq09sNRIEeyYk_RzN_LKuQ" target="_wqHzENRIEeyYk_RzN_LKuQ" source="_bd5s8NRIEeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xi7qYNRIEeyYk_RzN_LKuQ" target="_wqHzENRIEeyYk_RzN_LKuQ" source="_j9JxMNRIEeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5TAUcNRIEeyYk_RzN_LKuQ" target="_5SVmENRIEeyYk_RzN_LKuQ" source="_x8Z08NQ1EeyYk_RzN_LKuQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CD9zwNRJEeyYk_RzN_LKuQ" target="_bd5s8NRIEeyYk_RzN_LKuQ" source="_5SVmENRIEeyYk_RzN_LKuQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_lhYesNQ1EeyYk_RzN_LKuQ" name="Payment Screen" node="_q-zJoNQ1EeyYk_RzN_LKuQ _x8Z08NQ1EeyYk_RzN_LKuQ" edge="_x82g4NQ1EeyYk_RzN_LKuQ"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_xSlRUNQ0EeyYk_RzN_LKuQ" name="" outgoing="_Eye4MNQ4EeyYk_RzN_LKuQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1GlucNQ0EeyYk_RzN_LKuQ" name="Enroll Button" incoming="_JPB8ANQ4EeyYk_RzN_LKuQ" outgoing="_CIhD8NRGEeyYk_RzN_LKuQ">
+      <handler xmi:type="uml:ExceptionHandler" xmi:id="_BaelINQ5EeyYk_RzN_LKuQ"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_q-zJoNQ1EeyYk_RzN_LKuQ" name="Payment Option" incoming="_77w74NRHEeyYk_RzN_LKuQ" outgoing="_x82g4NQ1EeyYk_RzN_LKuQ" inPartition="_lhYesNQ1EeyYk_RzN_LKuQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_x8Z08NQ1EeyYk_RzN_LKuQ" name="Confirm Payment Option" incoming="_x82g4NQ1EeyYk_RzN_LKuQ" outgoing="_5TAUcNRIEeyYk_RzN_LKuQ" inPartition="_lhYesNQ1EeyYk_RzN_LKuQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_P9wIsNQ2EeyYk_RzN_LKuQ" name="Financial Aid" incoming="_JFGJoNRIEeyYk_RzN_LKuQ" outgoing="_Xfqa8NQ2EeyYk_RzN_LKuQ"/>
+    <node xmi:type="uml:ForkNode" xmi:id="_XfElENQ2EeyYk_RzN_LKuQ" name="" incoming="_Xfqa8NQ2EeyYk_RzN_LKuQ" outgoing="_cHHHMNQ2EeyYk_RzN_LKuQ _ig7I8NQ2EeyYk_RzN_LKuQ _107JMNQ2EeyYk_RzN_LKuQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_cGNvUNQ2EeyYk_RzN_LKuQ" name="Enter Details " incoming="_cHHHMNQ2EeyYk_RzN_LKuQ" outgoing="_-VWcsNQ3EeyYk_RzN_LKuQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_igLiENQ2EeyYk_RzN_LKuQ" name="Enter Employement Status" incoming="_ig7I8NQ2EeyYk_RzN_LKuQ" outgoing="_-gLCENQ2EeyYk_RzN_LKuQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_10LiUNQ2EeyYk_RzN_LKuQ" name="Enter Reason" incoming="_107JMNQ2EeyYk_RzN_LKuQ" outgoing="_TsB70NQ3EeyYk_RzN_LKuQ"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_-fRqMNQ2EeyYk_RzN_LKuQ" name="" incoming="_-gLCENQ2EeyYk_RzN_LKuQ _TsB70NQ3EeyYk_RzN_LKuQ _-VWcsNQ3EeyYk_RzN_LKuQ" outgoing="_L12pwNQ3EeyYk_RzN_LKuQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_L1HC4NQ3EeyYk_RzN_LKuQ" name="Submit Application" incoming="_L12pwNQ3EeyYk_RzN_LKuQ" outgoing="_d6cn4NRIEeyYk_RzN_LKuQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Ex5CUNQ4EeyYk_RzN_LKuQ" name="login" incoming="_Eye4MNQ4EeyYk_RzN_LKuQ" outgoing="_JPB8ANQ4EeyYk_RzN_LKuQ"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_CHzSQNRGEeyYk_RzN_LKuQ" name="" incoming="_CIhD8NRGEeyYk_RzN_LKuQ" outgoing="_77w74NRHEeyYk_RzN_LKuQ _JFGJoNRIEeyYk_RzN_LKuQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_bd5s8NRIEeyYk_RzN_LKuQ" name="Course Added" incoming="_CD9zwNRJEeyYk_RzN_LKuQ" outgoing="_wq09sNRIEeyYk_RzN_LKuQ">
+      <handler xmi:type="uml:ExceptionHandler" xmi:id="_j9xcQNRIEeyYk_RzN_LKuQ"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_j9JxMNRIEeyYk_RzN_LKuQ" name="Course not Enroll" outgoing="_xi7qYNRIEeyYk_RzN_LKuQ"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_wqHzENRIEeyYk_RzN_LKuQ" name="" incoming="_wq09sNRIEeyYk_RzN_LKuQ _xi7qYNRIEeyYk_RzN_LKuQ"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_5SVmENRIEeyYk_RzN_LKuQ" name="" incoming="_5TAUcNRIEeyYk_RzN_LKuQ _d6cn4NRIEeyYk_RzN_LKuQ" outgoing="_CD9zwNRJEeyYk_RzN_LKuQ"/>
+  </packagedElement>
+</uml:Model>

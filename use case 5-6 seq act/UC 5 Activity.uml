@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Vs5UsNYWEeyX6eWulZz1IA" name="UC 5 Activity">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_VuiTcNYWEeyX6eWulZz1IA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_Z6wKUNYYEeyXCtSCLQYSYg" name="Activity2" node="_dmbK0NYYEeyXCtSCLQYSYg _vPbB0NYYEeyXCtSCLQYSYg _0rK40NYYEeyXCtSCLQYSYg _NmTgsNYZEeyXCtSCLQYSYg _lyxrwNYZEeyXCtSCLQYSYg _nr04ENYZEeyXCtSCLQYSYg _AXwmUNYaEeyXCtSCLQYSYg _IROc8NYaEeyXCtSCLQYSYg _NMonANYaEeyXCtSCLQYSYg">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_eDkH4NYaEeyXCtSCLQYSYg">
+      <body>LinkCannotCreateException&#xD;
+</body>
+    </ownedComment>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_t5k-UNYaEeyXCtSCLQYSYg" target="_vPbB0NYYEeyXCtSCLQYSYg" source="_dmbK0NYYEeyXCtSCLQYSYg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_u1ChANYaEeyXCtSCLQYSYg" target="_0rK40NYYEeyXCtSCLQYSYg" source="_vPbB0NYYEeyXCtSCLQYSYg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_v9ldcNYaEeyXCtSCLQYSYg" target="_NmTgsNYZEeyXCtSCLQYSYg" source="_0rK40NYYEeyXCtSCLQYSYg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_w2jFwNYaEeyXCtSCLQYSYg" target="_lyxrwNYZEeyXCtSCLQYSYg" source="_NmTgsNYZEeyXCtSCLQYSYg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_x1ahwNYaEeyXCtSCLQYSYg" target="_nr04ENYZEeyXCtSCLQYSYg" source="_lyxrwNYZEeyXCtSCLQYSYg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0flpANYaEeyXCtSCLQYSYg" target="_AXwmUNYaEeyXCtSCLQYSYg" source="_nr04ENYZEeyXCtSCLQYSYg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1VsxoNYaEeyXCtSCLQYSYg" target="_IROc8NYaEeyXCtSCLQYSYg" source="_AXwmUNYaEeyXCtSCLQYSYg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mb3toOKyEey_05WPexhnVA" target="_IROc8NYaEeyXCtSCLQYSYg" source="_NMonANYaEeyXCtSCLQYSYg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_dmbK0NYYEeyXCtSCLQYSYg" name="InitialNode1" outgoing="_t5k-UNYaEeyXCtSCLQYSYg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_vPbB0NYYEeyXCtSCLQYSYg" name="Login as Teacher" incoming="_t5k-UNYaEeyXCtSCLQYSYg" outgoing="_u1ChANYaEeyXCtSCLQYSYg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0rK40NYYEeyXCtSCLQYSYg" name="Click on sponsor course" incoming="_u1ChANYaEeyXCtSCLQYSYg" outgoing="_v9ldcNYaEeyXCtSCLQYSYg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_NmTgsNYZEeyXCtSCLQYSYg" name="Select no of copies" incoming="_v9ldcNYaEeyXCtSCLQYSYg" outgoing="_w2jFwNYaEeyXCtSCLQYSYg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_lyxrwNYZEeyXCtSCLQYSYg" name="Pay for course" incoming="_w2jFwNYaEeyXCtSCLQYSYg" outgoing="_x1ahwNYaEeyXCtSCLQYSYg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_nr04ENYZEeyXCtSCLQYSYg" name="Generate course link" incoming="_x1ahwNYaEeyXCtSCLQYSYg" outgoing="_0flpANYaEeyXCtSCLQYSYg">
+      <handler xmi:type="uml:ExceptionHandler" xmi:id="_NN050NYaEeyXCtSCLQYSYg"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_AXwmUNYaEeyXCtSCLQYSYg" name="Send Link to students" incoming="_0flpANYaEeyXCtSCLQYSYg" outgoing="_1VsxoNYaEeyXCtSCLQYSYg">
+      <handler xmi:type="uml:ExceptionHandler" xmi:id="_kd92gOKyEey_05WPexhnVA"/>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_IROc8NYaEeyXCtSCLQYSYg" name="" incoming="_1VsxoNYaEeyXCtSCLQYSYg _mb3toOKyEey_05WPexhnVA"/>
+    <node xmi:type="uml:ReadLinkAction" xmi:id="_NMonANYaEeyXCtSCLQYSYg" name="Generate New Link" outgoing="_mb3toOKyEey_05WPexhnVA"/>
+  </packagedElement>
+</uml:Model>

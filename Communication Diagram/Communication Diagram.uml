@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qD73kNYcEeyTY_--Xj-wZw" name="Communication Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_qFR7YNYcEeyTY_--Xj-wZw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_qEFokNYcEeyTY_--Xj-wZw" name="Coursera">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_0-T2QNYjEeyTY_--Xj-wZw" name="" type="_qEFokNYcEeyTY_--Xj-wZw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_fCeDUNYeEeyTY_--Xj-wZw" name="Coursera" coveredBy="_Jbh6otYfEeyTY_--Xj-wZw _ssyo0dYfEeyTY_--Xj-wZw _AiPwUdYgEeyTY_--Xj-wZw _QmiTUdYgEeyTY_--Xj-wZw _XZpl4NYgEeyTY_--Xj-wZw _3R3UodYgEeyTY_--Xj-wZw _7K6CwNYgEeyTY_--Xj-wZw _uWzostYhEeyTY_--Xj-wZw _8pBKEdYhEeyTY_--Xj-wZw _O-tvAtYiEeyTY_--Xj-wZw _ZTZD0NYiEeyTY_--Xj-wZw _oDtoEdYjEeyTY_--Xj-wZw _tvh7YdYjEeyTY_--Xj-wZw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_iEg4ANYeEeyTY_--Xj-wZw" name=":Student/Teacher" coveredBy="_Jbh6odYfEeyTY_--Xj-wZw _3R3UoNYgEeyTY_--Xj-wZw _uWzosdYhEeyTY_--Xj-wZw _O-tvAdYiEeyTY_--Xj-wZw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_hIKIANYfEeyTY_--Xj-wZw" name="Login" coveredBy="_ssyo0tYfEeyTY_--Xj-wZw _QmiTUNYgEeyTY_--Xj-wZw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_83YoINYfEeyTY_--Xj-wZw" name=":Register" coveredBy="_AiPwUtYgEeyTY_--Xj-wZw _XZf04dYgEeyTY_--Xj-wZw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_wmpZ0NYgEeyTY_--Xj-wZw" name="Search" coveredBy="_7K6CwdYgEeyTY_--Xj-wZw _Sx7-cdYhEeyTY_--Xj-wZw _8pBKEtYhEeyTY_--Xj-wZw _Ba8oANYiEeyTY_--Xj-wZw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_I3oRcNYhEeyTY_--Xj-wZw" name="Course" coveredBy="_Sx7-ctYhEeyTY_--Xj-wZw _Ba8oAdYiEeyTY_--Xj-wZw _kPhPodYhEeyTY_--Xj-wZw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_W38KgNYhEeyTY_--Xj-wZw" name="Payement" coveredBy="_ar1S4tYhEeyTY_--Xj-wZw _tvh7YtYjEeyTY_--Xj-wZw _BmNcMuKsEey_05WPexhnVA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_g4YUsNYhEeyTY_--Xj-wZw" name="MyCourses" coveredBy="_kPhPotYhEeyTY_--Xj-wZw _ar1S4dYhEeyTY_--Xj-wZw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_TFAO8NYiEeyTY_--Xj-wZw" name="Profile" coveredBy="_ZTZD0dYiEeyTY_--Xj-wZw _di3U8dYiEeyTY_--Xj-wZw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_bx6UsNYiEeyTY_--Xj-wZw" name="DataBase" coveredBy="_di3U8tYiEeyTY_--Xj-wZw _BmNcMeKsEey_05WPexhnVA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_l6sGENYjEeyTY_--Xj-wZw" name="Administrator" coveredBy="_oDtoENYjEeyTY_--Xj-wZw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_0-KFQNYjEeyTY_--Xj-wZw" name="" represents="_0-T2QNYjEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Jbh6odYfEeyTY_--Xj-wZw" name="Message3SendEvent" covered="_iEg4ANYeEeyTY_--Xj-wZw" message="_Jbh6oNYfEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Jbh6otYfEeyTY_--Xj-wZw" name="Message3ReceiveEvent" covered="_fCeDUNYeEeyTY_--Xj-wZw" message="_Jbh6oNYfEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ssyo0dYfEeyTY_--Xj-wZw" name="Message7SendEvent" covered="_fCeDUNYeEeyTY_--Xj-wZw" message="_ssyo0NYfEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ssyo0tYfEeyTY_--Xj-wZw" name="Message7ReceiveEvent" covered="_hIKIANYfEeyTY_--Xj-wZw" message="_ssyo0NYfEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AiPwUdYgEeyTY_--Xj-wZw" name="Message11SendEvent" covered="_fCeDUNYeEeyTY_--Xj-wZw" message="_AiPwUNYgEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AiPwUtYgEeyTY_--Xj-wZw" name="Message11ReceiveEvent" covered="_83YoINYfEeyTY_--Xj-wZw" message="_AiPwUNYgEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QmiTUNYgEeyTY_--Xj-wZw" name="Message15SendEvent" covered="_hIKIANYfEeyTY_--Xj-wZw" message="_QmYiUNYgEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QmiTUdYgEeyTY_--Xj-wZw" name="Message15ReceiveEvent" covered="_fCeDUNYeEeyTY_--Xj-wZw" message="_QmYiUNYgEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XZf04dYgEeyTY_--Xj-wZw" name="Message18SendEvent" covered="_83YoINYfEeyTY_--Xj-wZw" message="_XZf04NYgEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XZpl4NYgEeyTY_--Xj-wZw" name="Message18ReceiveEvent" covered="_fCeDUNYeEeyTY_--Xj-wZw" message="_XZf04NYgEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3R3UoNYgEeyTY_--Xj-wZw" name="Message21SendEvent" covered="_iEg4ANYeEeyTY_--Xj-wZw" message="_3RtjoNYgEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3R3UodYgEeyTY_--Xj-wZw" name="Message21ReceiveEvent" covered="_fCeDUNYeEeyTY_--Xj-wZw" message="_3RtjoNYgEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7K6CwNYgEeyTY_--Xj-wZw" name="Message24SendEvent" covered="_fCeDUNYeEeyTY_--Xj-wZw" message="_7Kw40NYgEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7K6CwdYgEeyTY_--Xj-wZw" name="Message24ReceiveEvent" covered="_wmpZ0NYgEeyTY_--Xj-wZw" message="_7Kw40NYgEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Sx7-cdYhEeyTY_--Xj-wZw" name="Message28SendEvent" covered="_wmpZ0NYgEeyTY_--Xj-wZw" message="_Sx7-cNYhEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Sx7-ctYhEeyTY_--Xj-wZw" name="Message28ReceiveEvent" covered="_I3oRcNYhEeyTY_--Xj-wZw" message="_Sx7-cNYhEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ar1S4dYhEeyTY_--Xj-wZw" name="Message32SendEvent" covered="_g4YUsNYhEeyTY_--Xj-wZw" message="_ar1S4NYhEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ar1S4tYhEeyTY_--Xj-wZw" name="Message32ReceiveEvent" covered="_W38KgNYhEeyTY_--Xj-wZw" message="_ar1S4NYhEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kPhPodYhEeyTY_--Xj-wZw" name="Message36SendEvent" covered="_I3oRcNYhEeyTY_--Xj-wZw" message="_kPhPoNYhEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kPhPotYhEeyTY_--Xj-wZw" name="Message36ReceiveEvent" covered="_g4YUsNYhEeyTY_--Xj-wZw" message="_kPhPoNYhEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uWzosdYhEeyTY_--Xj-wZw" name="Message39SendEvent" covered="_iEg4ANYeEeyTY_--Xj-wZw" message="_uWzosNYhEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uWzostYhEeyTY_--Xj-wZw" name="Message39ReceiveEvent" covered="_fCeDUNYeEeyTY_--Xj-wZw" message="_uWzosNYhEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8pBKEdYhEeyTY_--Xj-wZw" name="Message42SendEvent" covered="_fCeDUNYeEeyTY_--Xj-wZw" message="_8pBKENYhEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8pBKEtYhEeyTY_--Xj-wZw" name="Message42ReceiveEvent" covered="_wmpZ0NYgEeyTY_--Xj-wZw" message="_8pBKENYhEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Ba8oANYiEeyTY_--Xj-wZw" name="Message45SendEvent" covered="_wmpZ0NYgEeyTY_--Xj-wZw" message="_BazeENYiEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Ba8oAdYiEeyTY_--Xj-wZw" name="Message45ReceiveEvent" covered="_I3oRcNYhEeyTY_--Xj-wZw" message="_BazeENYiEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O-tvAdYiEeyTY_--Xj-wZw" name="Message48SendEvent" covered="_iEg4ANYeEeyTY_--Xj-wZw" message="_O-tvANYiEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O-tvAtYiEeyTY_--Xj-wZw" name="Message48ReceiveEvent" covered="_fCeDUNYeEeyTY_--Xj-wZw" message="_O-tvANYiEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZTZD0NYiEeyTY_--Xj-wZw" name="Message52SendEvent" covered="_fCeDUNYeEeyTY_--Xj-wZw" message="_ZTP54NYiEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZTZD0dYiEeyTY_--Xj-wZw" name="Message52ReceiveEvent" covered="_TFAO8NYiEeyTY_--Xj-wZw" message="_ZTP54NYiEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_di3U8dYiEeyTY_--Xj-wZw" name="Message56SendEvent" covered="_TFAO8NYiEeyTY_--Xj-wZw" message="_di3U8NYiEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_di3U8tYiEeyTY_--Xj-wZw" name="Message56ReceiveEvent" covered="_bx6UsNYiEeyTY_--Xj-wZw" message="_di3U8NYiEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oDtoENYjEeyTY_--Xj-wZw" name="Message60SendEvent" covered="_l6sGENYjEeyTY_--Xj-wZw" message="_oDkeINYjEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oDtoEdYjEeyTY_--Xj-wZw" name="Message60ReceiveEvent" covered="_fCeDUNYeEeyTY_--Xj-wZw" message="_oDkeINYjEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tvh7YdYjEeyTY_--Xj-wZw" name="Message63SendEvent" covered="_fCeDUNYeEeyTY_--Xj-wZw" message="_tvh7YNYjEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tvh7YtYjEeyTY_--Xj-wZw" name="Message63ReceiveEvent" covered="_W38KgNYhEeyTY_--Xj-wZw" message="_tvh7YNYjEeyTY_--Xj-wZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BmNcMeKsEey_05WPexhnVA" name="Message68SendEvent" covered="_bx6UsNYiEeyTY_--Xj-wZw" message="_BmNcMOKsEey_05WPexhnVA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BmNcMuKsEey_05WPexhnVA" name="Message68ReceiveEvent" covered="_W38KgNYhEeyTY_--Xj-wZw" message="_BmNcMOKsEey_05WPexhnVA"/>
+    <message xmi:type="uml:Message" xmi:id="_Jbh6oNYfEeyTY_--Xj-wZw" name="1:Login()" messageSort="asynchCall" receiveEvent="_Jbh6otYfEeyTY_--Xj-wZw" sendEvent="_Jbh6odYfEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_ssyo0NYfEeyTY_--Xj-wZw" name="1a:[if account exixts] enterIDPASS()" messageSort="asynchCall" receiveEvent="_ssyo0tYfEeyTY_--Xj-wZw" sendEvent="_ssyo0dYfEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_AiPwUNYgEeyTY_--Xj-wZw" name="1b: [account not exist] makeAccount()" messageSort="asynchCall" receiveEvent="_AiPwUtYgEeyTY_--Xj-wZw" sendEvent="_AiPwUdYgEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_QmYiUNYgEeyTY_--Xj-wZw" name="1a.1: viewHome()" messageSort="asynchCall" receiveEvent="_QmiTUdYgEeyTY_--Xj-wZw" sendEvent="_QmiTUNYgEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_XZf04NYgEeyTY_--Xj-wZw" name="1b.1: viewHome()" messageSort="asynchCall" receiveEvent="_XZpl4NYgEeyTY_--Xj-wZw" sendEvent="_XZf04dYgEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_3RtjoNYgEeyTY_--Xj-wZw" name="2:enrol()" messageSort="asynchCall" receiveEvent="_3R3UodYgEeyTY_--Xj-wZw" sendEvent="_3R3UoNYgEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_7Kw40NYgEeyTY_--Xj-wZw" name="2.1: search()" messageSort="asynchCall" receiveEvent="_7K6CwdYgEeyTY_--Xj-wZw" sendEvent="_7K6CwNYgEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_Sx7-cNYhEeyTY_--Xj-wZw" name="2.2:selectCourse()" messageSort="asynchCall" receiveEvent="_Sx7-ctYhEeyTY_--Xj-wZw" sendEvent="_Sx7-cdYhEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_ar1S4NYhEeyTY_--Xj-wZw" name="2.4:pay()" messageSort="asynchCall" receiveEvent="_ar1S4tYhEeyTY_--Xj-wZw" sendEvent="_ar1S4dYhEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_kPhPoNYhEeyTY_--Xj-wZw" name="2.3: addTo MyCourse()" messageSort="asynchCall" receiveEvent="_kPhPotYhEeyTY_--Xj-wZw" sendEvent="_kPhPodYhEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_uWzosNYhEeyTY_--Xj-wZw" name="3: search()" messageSort="asynchCall" receiveEvent="_uWzostYhEeyTY_--Xj-wZw" sendEvent="_uWzosdYhEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_8pBKENYhEeyTY_--Xj-wZw" name="3.2:seachCourse()" messageSort="asynchCall" receiveEvent="_8pBKEtYhEeyTY_--Xj-wZw" sendEvent="_8pBKEdYhEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_BazeENYiEeyTY_--Xj-wZw" name="3.3: displayCourse()" messageSort="asynchCall" receiveEvent="_Ba8oAdYiEeyTY_--Xj-wZw" sendEvent="_Ba8oANYiEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_O-tvANYiEeyTY_--Xj-wZw" name="4:viewProfile()" messageSort="asynchCall" receiveEvent="_O-tvAtYiEeyTY_--Xj-wZw" sendEvent="_O-tvAdYiEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_ZTP54NYiEeyTY_--Xj-wZw" name="4.1:viewProfile()" messageSort="asynchCall" receiveEvent="_ZTZD0dYiEeyTY_--Xj-wZw" sendEvent="_ZTZD0NYiEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_di3U8NYiEeyTY_--Xj-wZw" name="4.2:modifyProfile()" messageSort="asynchCall" receiveEvent="_di3U8tYiEeyTY_--Xj-wZw" sendEvent="_di3U8dYiEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_oDkeINYjEeyTY_--Xj-wZw" name="5: verifyPayment()" messageSort="asynchCall" receiveEvent="_oDtoEdYjEeyTY_--Xj-wZw" sendEvent="_oDtoENYjEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_tvh7YNYjEeyTY_--Xj-wZw" name="5.1: verify()" messageSort="asynchCall" receiveEvent="_tvh7YtYjEeyTY_--Xj-wZw" sendEvent="_tvh7YdYjEeyTY_--Xj-wZw"/>
+    <message xmi:type="uml:Message" xmi:id="_BmNcMOKsEey_05WPexhnVA" name="4.3:Addpayment" messageSort="asynchCall" receiveEvent="_BmNcMuKsEey_05WPexhnVA" sendEvent="_BmNcMeKsEey_05WPexhnVA"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_DZp3x9YfEeyTY_--Xj-wZw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DZzowNYfEeyTY_--Xj-wZw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

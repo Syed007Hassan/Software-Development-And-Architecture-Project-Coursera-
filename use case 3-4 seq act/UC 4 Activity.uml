@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_zaBmgNRWEeyitOpyJeuHdA" name="UC 4 Activity">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_zaeScNRWEeyitOpyJeuHdA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_zaBmgdRWEeyitOpyJeuHdA" name="Activity1" node="_9qi0ENRWEeyitOpyJeuHdA _A9WooNRXEeyitOpyJeuHdA _HhPzcNRXEeyitOpyJeuHdA _ORD6YNRXEeyitOpyJeuHdA _TXPKANRXEeyitOpyJeuHdA _gabTgNRXEeyitOpyJeuHdA _iOt7oNRXEeyitOpyJeuHdA _p2ciANRXEeyitOpyJeuHdA _shzVANRXEeyitOpyJeuHdA _bJGuYNRYEeyitOpyJeuHdA _SapMoNRcEeyitOpyJeuHdA">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_D0AssNRXEeyitOpyJeuHdA" target="_A9WooNRXEeyitOpyJeuHdA" source="_9qi0ENRWEeyitOpyJeuHdA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_aCTT0NRXEeyitOpyJeuHdA" target="_TXPKANRXEeyitOpyJeuHdA" source="_ORD6YNRXEeyitOpyJeuHdA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_bHuDwNRXEeyitOpyJeuHdA" target="_HhPzcNRXEeyitOpyJeuHdA" source="_A9WooNRXEeyitOpyJeuHdA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eQi14NRXEeyitOpyJeuHdA" target="_ORD6YNRXEeyitOpyJeuHdA" source="_HhPzcNRXEeyitOpyJeuHdA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kpIIkNRXEeyitOpyJeuHdA" target="_gabTgNRXEeyitOpyJeuHdA" source="_TXPKANRXEeyitOpyJeuHdA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_n338gNRXEeyitOpyJeuHdA" target="_iOt7oNRXEeyitOpyJeuHdA" source="_TXPKANRXEeyitOpyJeuHdA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_vmCiENRXEeyitOpyJeuHdA" target="_p2ciANRXEeyitOpyJeuHdA" source="_iOt7oNRXEeyitOpyJeuHdA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wTVF4NRXEeyitOpyJeuHdA" target="_shzVANRXEeyitOpyJeuHdA" source="_p2ciANRXEeyitOpyJeuHdA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_I9PeENRcEeyitOpyJeuHdA" target="_bJGuYNRYEeyitOpyJeuHdA" source="_shzVANRXEeyitOpyJeuHdA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KtmBYNRcEeyitOpyJeuHdA" target="_bJGuYNRYEeyitOpyJeuHdA" source="_gabTgNRXEeyitOpyJeuHdA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VOWDUNRcEeyitOpyJeuHdA" target="_SapMoNRcEeyitOpyJeuHdA" source="_bJGuYNRYEeyitOpyJeuHdA"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_9qi0ENRWEeyitOpyJeuHdA" name="" outgoing="_D0AssNRXEeyitOpyJeuHdA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_A9WooNRXEeyitOpyJeuHdA" name="login to homepage" incoming="_D0AssNRXEeyitOpyJeuHdA" outgoing="_bHuDwNRXEeyitOpyJeuHdA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HhPzcNRXEeyitOpyJeuHdA" name="click on my profile icon" incoming="_bHuDwNRXEeyitOpyJeuHdA" outgoing="_eQi14NRXEeyitOpyJeuHdA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ORD6YNRXEeyitOpyJeuHdA" name="from menu click profile" incoming="_eQi14NRXEeyitOpyJeuHdA" outgoing="_aCTT0NRXEeyitOpyJeuHdA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_TXPKANRXEeyitOpyJeuHdA" incoming="_aCTT0NRXEeyitOpyJeuHdA" outgoing="_kpIIkNRXEeyitOpyJeuHdA _n338gNRXEeyitOpyJeuHdA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_gabTgNRXEeyitOpyJeuHdA" name="view profile" incoming="_kpIIkNRXEeyitOpyJeuHdA" outgoing="_KtmBYNRcEeyitOpyJeuHdA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_iOt7oNRXEeyitOpyJeuHdA" name="edit profile" incoming="_n338gNRXEeyitOpyJeuHdA" outgoing="_vmCiENRXEeyitOpyJeuHdA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_p2ciANRXEeyitOpyJeuHdA" name="make changes" incoming="_vmCiENRXEeyitOpyJeuHdA" outgoing="_wTVF4NRXEeyitOpyJeuHdA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_shzVANRXEeyitOpyJeuHdA" name="save changes" incoming="_wTVF4NRXEeyitOpyJeuHdA" outgoing="_I9PeENRcEeyitOpyJeuHdA">
+      <handler xmi:type="uml:ExceptionHandler" xmi:id="_41qDwNSNEeygwPeXgC3q1Q"/>
+    </node>
+    <node xmi:type="uml:MergeNode" xmi:id="_bJGuYNRYEeyitOpyJeuHdA" incoming="_I9PeENRcEeyitOpyJeuHdA _KtmBYNRcEeyitOpyJeuHdA" outgoing="_VOWDUNRcEeyitOpyJeuHdA"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_SapMoNRcEeyitOpyJeuHdA" name="" incoming="_VOWDUNRcEeyitOpyJeuHdA"/>
+  </packagedElement>
+</uml:Model>
